@@ -94,7 +94,7 @@ DATABASES = {
 
     }
 }
-the postgres url from heroku changes daily
+#the postgres url from heroku changes daily
 DATABASES['default'] = dj_database_url.config(default='postgres://svwtligriaiwgt:9d01ec52680a72dec9be8f2caea791b734f29ba0b8128ef80b6a4cd465947322@ec2-3-215-40-176.compute-1.amazonaws.com:5432/d3fprc3j3um63l')
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
