@@ -81,21 +81,21 @@ WSGI_APPLICATION = 'btre.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
-
 #DATABASES = {
 #    'default': {
-#        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#
+#        'ENGINE': 'django.db.backends.sqlite3',
+#        'NAME': BASE_DIR / 'db.sqlite3',
 #    }
 #}
-#the postgres url from heroku changes daily
-#DATABASES['default'] = dj_database_url.config(default='postgres://gxdutsutqbwszb:e977bb5a09298494ae6f2c50d65a8e732112c49bad168bb6b7646145380b0179@ec2-3-210-255-177.compute-1.amazonaws.com:5432/de4ecu1o7m7scs')
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+
+    }
+}
+the postgres url from heroku changes daily
+DATABASES['default'] = dj_database_url.config(default='postgres://svwtligriaiwgt:9d01ec52680a72dec9be8f2caea791b734f29ba0b8128ef80b6a4cd465947322@ec2-3-215-40-176.compute-1.amazonaws.com:5432/d3fprc3j3um63l')
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
 
