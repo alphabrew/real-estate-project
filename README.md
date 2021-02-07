@@ -1,6 +1,6 @@
 # real-estate-project
 
-Brad Traversy "BTRE" Real Estate project deployed to heroku.  This was an Udemy course.  The only thing I changed from the standard course is deploying to Heroku.
+Brad Traversy "BTRE" Real Estate django project deployed to heroku.  This was an Udemy course.  The only thing I changed from the standard course is deploying to Heroku.
 
 A fun course, thanks Brad!!
 
